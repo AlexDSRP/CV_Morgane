@@ -309,5 +309,17 @@ h2
     margin-top: 10px;
     font-family: 'Chakra Petch', sans-serif;
 }
+.title
+{
+    border-bottom: 8px solid #875d9c;
+    color: #422E26;
+    font-size: 1.7em;
+    margin-top: 40px;
+    margin-left: 73%;
+    margin-bottom: 40px;
+    font-family: 'Russo One', sans-serif;
+    text-align: right;
+    margin-right: 20px;
+}
 
 
