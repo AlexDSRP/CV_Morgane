@@ -1,27 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Fredoka+One&family=Oleo+Script+Swash+Caps&family=Oleo+Script:wght@400;700&family=Oswald:wght@300&family=Permanent+Marker&family=Roboto+Flex:opsz,wght@8..144,100;8..144,400&family=Teko:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Fredoka+One&family=Oleo+Script+Swash+Caps&family=Oleo+Script:wght@400;700&family=Oswald:wght@300&family=Permanent+Marker&family=Roboto+Flex:opsz,wght@8..144,100;8..144,400&family=Russo+One&family=Teko:wght@600&display=swap');
-html
-{
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Fredoka+One&family=Oleo+Script+Swash+Caps&family=Oleo+Script:wght@400;700&family=Oswald:wght@300&family=Permanent+Marker&family=Roboto+Flex:opsz,wght@8..144,100;8..144,400&family=Teko:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Fredoka+One&family=Oleo+Script+Swash+Caps&family=Oleo+Script:wght@400;700&family=Oswald:wght@300&family=Permanent+Marker&family=Roboto+Flex:opsz,wght@8..144,100;8..144,400&family=Russo+One&family=Teko:wght@600&display=swap");
+html {
     font-family: sans-serif;
-}   
-header
-{
+}
+header {
     display: flex;
     justify-content: space-between;
 }
-.langue
-{
+.langue {
     display: flex;
     margin-top: 10px;
     margin-bottom: 15px;
 }
-.langue :hover
-{
+.langue :hover {
     transform: scale(1.06, 1.06);
-    
 }
-.fr
-{
+.fr {
     display: flex;
     margin-right: 13px;
     margin-left: 15px;
@@ -31,8 +25,7 @@ header
     padding-bottom: 3px;
     cursor: pointer;
 }
-.ang
-{
+.ang {
     display: flex;
     margin-right: 13px;
     padding-left: 10px;
@@ -41,8 +34,7 @@ header
     padding-bottom: 3px;
     cursor: pointer;
 }
-.esp
-{
+.esp {
     display: flex;
     padding-left: 10px;
     padding-right: 10px;
@@ -50,225 +42,187 @@ header
     padding-bottom: 3px;
     cursor: pointer;
 }
-.logo
-{
+.logo {
     width: 35px;
     height: 35px;
     border-radius: 10px;
-    box-shadow: 0px 2px 11px #5C2482;
+    box-shadow: 0px 2px 11px #5c2482;
 }
-.logo :hover
-{
-    box-shadow: 0px 2px 11px #5C2482;
+.logo :hover {
+    box-shadow: 0px 2px 11px #5c2482;
 }
-.accueil
-{
-    color: #422E26;
+.accueil {
+    color: #422e26;
     font-size: 35px;
     padding-top: 15px;
     cursor: pointer;
     margin-right: auto;
 }
-.accueil :hover
-{
+.accueil :hover {
     transform: scale(1.08, 1.08);
 }
-.infomorgane
-{
+.infomorgane {
     display: flex;
     margin-top: 15px;
 }
-.infomorgane :hover
-{
+.infomorgane :hover {
     transform: scale(1.08, 1.08);
 }
-.local
-{
+.local {
     margin-right: 30px;
     font-size: 30px;
-    color: #5C2482;
+    color: #5c2482;
     cursor: pointer;
 }
-.permis
-{
+.permis {
     margin-right: 30px;
     font-size: 30px;
-    color: #5C2482;
+    color: #5c2482;
     cursor: pointer;
 }
-.linkedin
-{
+.linkedin {
     font-size: 30px;
     margin-right: 25px;
-    color: #5C2482;
+    color: #5c2482;
     cursor: pointer;
 }
-.contact
-{
+.contact {
     display: flex;
     background-color: #1f0a2e;
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.ville
-{
+.ville {
     flex-direction: column;
     margin-right: 15%;
     margin-left: 10%;
 }
-.ville :hover
-{
+.ville :hover {
     transform: scale(1.2, 1.2);
 }
-.mail
-{
+.mail {
     flex-direction: column;
     margin-right: 15%;
 }
-.mail :hover
-{
+.mail :hover {
     transform: scale(1.2, 1.2);
 }
-.telephone
-{
+.telephone {
     flex-direction: column;
     margin-right: 15%;
 }
-.telephone :hover
-{
+.telephone :hover {
     transform: scale(1.2, 1.2);
 }
-.logof 
-{
+.logof {
     color: white;
     margin-left: 50%;
     margin-bottom: 10px;
     font-size: 20px;
 }
-.text2
-{
+.text2 {
     color: white;
 }
-#container1
-{
+#container1 {
     flex-direction: column;
 }
-.nom-titre
-{
+.nom-titre {
     flex-direction: column;
     text-align: center;
 }
-.nom
-{
-    color: #422E26;
+.nom {
+    color: #422e26;
     margin-top: 5%;
     font-size: 70px;
-    font-family: 'Russo One', sans-serif;
+    font-family: "Russo One", sans-serif;
     text-align: center;
 }
-.titre 
-{
-    color: #422E26;
+.titre {
+    color: #422e26;
     font-size: 25px;
-    font-family: 'Russo One', sans-serif;
+    font-family: "Russo One", sans-serif;
 }
-.info
-{
+.info {
     justify-content: center;
     display: flex;
     margin-top: 5%;
 }
-.photoinfo
-{
+.photoinfo {
     width: 300px;
     height: 280px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    border-bottom:2px solid #9775A6;
+    border-bottom: 2px solid #9775a6;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-
 }
-.ecole
-{
-    border: 2px solid #9775A6;
+.ecole {
+    border: 2px solid #9775a6;
     border-radius: 20px;
-    box-shadow: 2px 3px 10px #5C2482;
+    box-shadow: 2px 3px 10px #5c2482;
 }
-a
-{
+a {
     text-decoration: none;
 }
-.infophoto
-{
+.infophoto {
     display: flex;
     justify-content: space-between;
     margin-top: 13px;
     margin-bottom: 13px;
 }
-.text3
-{
+.text3 {
     margin-left: 8px;
     font-size: 19px;
-    color: #5C2482;
-    font-family: 'Chakra Petch', sans-serif;
+    color: #5c2482;
+    font-family: "Chakra Petch", sans-serif;
 }
-.text4
-{
+.text4 {
     font-size: 19px;
     margin-right: 8px;
-    border: 2px solid #5C2482;
+    border: 2px solid #5c2482;
     padding-top: 7px;
     padding-left: 7px;
     padding-bottom: 7px;
     padding-right: 7px;
     border-radius: 7px;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: "Chakra Petch", sans-serif;
 }
-.text4:hover 
-{
+.text4:hover {
     color: white;
-    background-color: #5C2482;
+    background-color: #5c2482;
     text-decoration: none;
 }
-a:hover
-{
+a:hover {
     text-decoration: none;
 }
-.moi 
-{
-    border: 2px solid #9775A6;
+.moi {
+    border: 2px solid #9775a6;
     margin-left: 3%;
     margin-right: 3%;
     border-radius: 20px;
-    box-shadow: 2px 3px 10px #5C2482;
+    box-shadow: 2px 3px 10px #5c2482;
 }
-.travail
-{
-    
+.travail {
     border-radius: 20px;
-    box-shadow: 2px 3px 10px #5C2482;
-    border: 2px solid #9775A6;
+    box-shadow: 2px 3px 10px #5c2482;
+    border: 2px solid #9775a6;
 }
-h2
-{
+h2 {
     border-bottom: 8px solid #875d9c;
     width: 16%;
-    color: #422E26;
+    color: #422e26;
     font-size: 1.9em;
     margin-top: 4%;
     margin-left: 20px;
     margin-bottom: 4%;
-    font-family: 'Russo One', sans-serif;
+    font-family: "Russo One", sans-serif;
 }
-.text5
-{
+.text5 {
     color: white;
     font-weight: bold;
     z-index: 1;
 }
-.apropos 
-{
+.apropos {
     display: flex;
     border-radius: 35px;
     box-shadow: 1px 2px 10px #dcdcde;
@@ -276,15 +230,13 @@ h2
     margin-bottom: 4%;
     margin-left: 20px;
     margin-right: 30px;
-    box-shadow: 1px 2px 10px #5C2482;
+    box-shadow: 1px 2px 10px #5c2482;
     cursor: pointer;
 }
-.apropos:hover 
-{
+.apropos:hover {
     transform: scale(1.03, 1.03);
 }
-.photoapropos
-{
+.photoapropos {
     width: 270px;
     height: 250px;
     margin-left: 10px;
@@ -292,131 +244,114 @@ h2
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
 }
-.text6
-{
-    border-right: 3px solid #5C2482;
-    border-left: 3px solid #5C2482;
+.text6 {
+    border-right: 3px solid #5c2482;
+    border-left: 3px solid #5c2482;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 25px;
     padding-right: 25px;
     font-weight: bold;
     font-size: 1.2em;
-    color: #422E26;
-    font-family: 'Chakra Petch', sans-serif;
+    color: #422e26;
+    font-family: "Chakra Petch", sans-serif;
 }
-.compet
-{
+.compet {
     margin-top: 10px;
 }
-.text7
-{
+.text7 {
     font-weight: bold;
     font-size: 1.2em;
-    color: #422E26;
+    color: #422e26;
     padding-left: 25px;
     margin-top: 10px;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: "Chakra Petch", sans-serif;
 }
-.title
-{
+.title {
     border-bottom: 8px solid #875d9c;
-    color: #422E26;
+    color: #422e26;
     font-size: 1.9em;
     margin-top: 40px;
     margin-left: 67%;
     margin-bottom: 40px;
-    font-family: 'Russo One', sans-serif;
+    font-family: "Russo One", sans-serif;
     text-align: right;
     margin-right: 30px;
 }
-.livret
-{
+.livret {
     display: flex;
     margin-top: 5%;
 }
-.competences
-{
+.competences {
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: 2px 3px 10px #5C2482;
+    box-shadow: 2px 3px 10px #5c2482;
     padding: 10px 10px 10px 10px;
     margin-right: 60px;
     margin-left: 30px;
     margin-bottom: 60px;
     cursor: pointer;
 }
-.competences:hover
-{
+.competences:hover {
     transform: scale(1.05, 1.05);
 }
-.photocomp
-{
+.photocomp {
     width: 440px;
     border-radius: 20px;
 }
-.titlecomp
-{
+.titlecomp {
     text-align: center;
     font-size: 1.3em;
-    font-family: 'Russo One', sans-serif;
+    font-family: "Russo One", sans-serif;
     margin-bottom: 20px;
-    color: #422E26;
+    color: #422e26;
 }
-.personnalité
-{
+.personnalité {
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: 2px 3px 10px #5C2482;
+    box-shadow: 2px 3px 10px #5c2482;
     padding: 10px 10px 10px 10px;
     margin-right: 30px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-bottom: 60px;
     cursor: pointer;
 }
-.personnalité:hover
-{
+.personnalité:hover {
     transform: scale(1.05, 1.05);
 }
-.text8
-{
-    font-family: 'Chakra Petch', sans-serif;
-    color: #422E26;
+.text8 {
+    font-family: "Chakra Petch", sans-serif;
+    color: #422e26;
     font-size: 1.2em;
 }
-.professionel
-{
+.professionel {
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: 2px 3px 10px #5C2482;
+    box-shadow: 2px 3px 10px #5c2482;
     padding: 10px 10px 10px 10px;
     margin-right: 30px;
     margin-left: 20px;
     margin-bottom: 60px;
     cursor: pointer;
 }
-.professionel:hover
-{
+.professionel:hover {
     transform: scale(1.03, 1.03);
 }
-.text9
-{
+.text9 {
     display: flex;
 }
-.soustexte1
-{
-    font-family: 'Chakra Petch', sans-serif;
-    color: #422E26;
+.soustexte1 {
+    font-family: "Chakra Petch", sans-serif;
+    color: #422e26;
     font-size: 1.2em;
     margin-right: 30px;
-    border-right: 3px solid #5C2482;
+    border-right: 3px solid #5c2482;
     margin-top: 15px;
     margin-bottom: 15px;
     padding-right: 40px;
     padding-left: 10px;
 }
-.photopro 
-{
+.photopro {
     width: 450px;
     margin-left: 20px;
 }
